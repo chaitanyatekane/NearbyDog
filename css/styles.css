@@ -1,0 +1,141 @@
+#title {
+    background-color: #8E44AD;
+    color:#fff;
+    text-align: left;
+}
+.big-heading {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+body {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 63%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 29%;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box {
+    padding: 5%;
+}
+p {
+    color: rgb(78, 73, 73);
+}
+.icon {
+    color: #af74c9;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #8E44AD;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #8E44AD;
+    color: white;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #8E44AD;
+    padding: 3%;
+}
+.press-logo {
+    width: 5%;
+    margin: 20px 30px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing Session  */
+#pricing {
+    padding: 100px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CSS Media Query */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA Call to Action */
+#cta {
+    background-color: #8E44AD;
+    color: white;
+    padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.footer-name {
+    font-size: 1.5rem;
+}
